@@ -1,10 +1,10 @@
 const PRECACHE = 'precache-v1';
 const RUNTIME = 'runtime';
 
-// A list of local resources we always want to be cached.
+// A list of local resources we always want to be cached
 const PRECACHE_URLS = [
   'index.html',
-  './', // Alias for index.html
+  './', //alias for index.html
   'css/style.css',
   'js/main.js',
   'images/hello-icon-128.png',
@@ -14,9 +14,9 @@ const PRECACHE_URLS = [
   'images/hello-icon-196maskable.png',
   'images/hello-icon-256.png',
   'images/hello-icon-512.png',
-  'favicon.ico',
+  'images/Cardinal.png',
   'sw.js'
-];
+  ];
 
 // The install handler takes care of precaching the resources we always need.
 self.addEventListener('install', function(event) {
